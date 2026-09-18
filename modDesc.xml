@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="80">
-    <author>Local Console Tools</author>
+    <author>Flav</author>
     <version>1.2.0.0</version>
 
     <title>
@@ -8,10 +8,24 @@
     </title>
 
     <description>
-        <en>Host-only console commands to search the current shop catalogue and spawn any vehicle or trailer at the player's position. A successful spawn charges the owning farm the item's default shop price.</en>
+        <en><![CDATA[
+Host-only console commands to search the current shop catalogue and spawn any vehicle or trailer at the player's position. A successful spawn charges the owning farm the item's default shop price.
+
+Changelog 1.2.0.0:
+- Added an optional free-spawn parameter that skips the affordability check and money deduction.
+- Added compatibility protection against obsolete FS19 ExtendedAnimationSounds scripts that can cause the vehicle shop to load indefinitely.
+- Improved failed-load cleanup and console feedback.
+
+Changelog 1.1.0.0:
+- Added vehicle and trailer catalogue filtering.
+- Added configurable spawn distance.
+
+Changelog 1.0.0.0:
+- Initial release.
+        ]]></en>
     </description>
 
-    <iconFilename>icon.dds</iconFilename>
+    <iconFilename>icon_FS22_ConsoleVehicleSpawner.dds</iconFilename>
     <multiplayer supported="true"/>
 
     <extraSourceFiles>
