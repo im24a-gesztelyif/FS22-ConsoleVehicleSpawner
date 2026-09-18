@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="80">
+    <author>Local Console Tools</author>
+    <version>1.2.0.0</version>
+
+    <title>
+        <en>Console Vehicle Spawner</en>
+    </title>
+
+    <description>
+        <en>Host-only console commands to search the current shop catalogue and spawn any vehicle or trailer at the player's position. A successful spawn charges the owning farm the item's default shop price.</en>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="ConsoleVehicleSpawner.lua"/>
+    </extraSourceFiles>
+</modDesc>
